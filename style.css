@@ -13,6 +13,11 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #231f20;
+  
+}
+
+h1{
+  padding-bottom: 10px;
 }
 
 .bold {
@@ -31,7 +36,7 @@ body {
   max-width: 800px;
   height: auto;
   display: flex;
-  margin: auto;
+  margin: 0 auto;
   flex-wrap: wrap;
 }
 
@@ -71,7 +76,33 @@ body {
 }
 
 .right_title {
-  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.title_underline {
+  height: 5px;
+  width: 35px;
+  background: #76cdd8;
+  margin-bottom: 10px;
+}
+
+.code_ex_arrea{
+  background: #3d3d41;
+  width: 100%;
+  padding: 40px 0;
+  border: 5px solid #76cdd8
+}
+
+.code_text{
+  margin-left: 20%;
+  margin-right: auto;
+  font-size: 19px;
+
+}
+
+.js_keyword{
+  color: #C078D9;
 }
 
 .footer {
