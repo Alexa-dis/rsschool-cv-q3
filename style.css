@@ -73,7 +73,7 @@ a{
 }
 
 .cv_right {
-  padding: 20px 40px 0 40px;
+  padding: 20px 0 0 40px;
   position: relative;
   display: block;
   width: 70%;
@@ -180,13 +180,14 @@ a{
   margin: auto;
   color: #ffffff;
   position: relative;
+  justify-content: space-between;
 }
 
 .footer_item {
   display: inline-block;
   width: 100%;
   position: relative;
-  text-align:start;
+  text-align: center;
 }
 
 .Education {
