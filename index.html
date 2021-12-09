@@ -12,10 +12,10 @@
         <div class="cv_container">
             <div class="cv_left">
                 <header>
-                    <img class="cv_profile" src="cv_photo.png" alt="cv_photo">
+                    <img class="cv_profile" src="/imgs/cv_photo.png" alt="cv_photo">
                 </header>
                 <div class="cv_content">
-                    <section class="cv_info cv_item">
+                    <section class="cv_item">
                         <h1>Alexandra Safonava</h1>
                         <p class="regular">Junior Frontend Developer</p>
                         <h2 class="adress"> Lithuania, Vilnius </h2>
@@ -23,9 +23,9 @@
                     <section class="cv_item">
                         <h3>contacts:</h3>
                         <ul>
-                            <li class="regular"> <img src="phone.png" alt="phone icon"> + 370 (645) 73 858</li>
-                            <li class="regular"> <img src="gmail.png" alt="mail icon"> alexa-09@bk.ru</li>
-                            <li class="regular"> <img src="github.png" alt="github icon"> Alexa-dis</li>
+                            <li class="regular"> <img src="/imgs/phone.png" alt="phone icon"> + 370 (645) 73 858</li>
+                            <li class="regular"> <img src="/imgs/gmail.png" alt="mail icon"> alexa-09@bk.ru</li>
+                            <li class="regular"> <img src="/imgs/github.png" alt="github icon"> Alexa-dis</li>
                         </ul>
                     </section>
                     <section class="cv_item">
@@ -51,44 +51,62 @@
 
             <aside class="cv_right">
                 <article class="cv_item">
-                    <h3 class="right_title">summary:</h3>
+                    <div class="title_arrea">
+                        <img class="title_img" src="/imgs/paper.png" alt="summary">
+                        <h3 class="right_title">summary:</h3>
+                    </div>
+                    
                     <div class="title_underline"></div>
                     <p class="regular">I am a <mark>purposeful, stress-resistant, responsible</mark> person. I work well in a team, scrupulously and with concentration I complete all tasks. I love a <b>mathematical and logical approach</b> to things.
                         I am looking forward to my work in the company to improve existing projects and create interesting new ones.
                         I will be glad to your suggestions!</p>
                 </article>
                 <section class="cv_item">
-                    <h3 class="right_title">Education:</h3>
+                    <div class="title_arrea">
+                        <img class="title_img" src="/imgs/open-book.png" alt="Education">
+                       <h3 class="right_title">Education:</h3> 
+                    </div>
+                    
                     <div class="title_underline"></div>
                     <ul>
                         <li class="Education"> 
-                            <em>Dec 2021 - cur.</em> - <b>The Rolling Scopes.</b> JavaScript/Front-end
+                            <span class="date_style">Dec 2021 - cur.</span> - <b>The Rolling Scopes.</b> JavaScript/Front-end
                         </li>
                         <li class="Education"> 
-                            <em>Sep 2021 - Nov 2021</em> - <b>Code Basics.</b> <p>HTML. CSS. JavaScript</p>
+                            <span class="date_style">Sep 2021 - Nov 2021</span> - <b>Code Basics.</b> <p>HTML. CSS. JavaScript</p>
                         </li>
                         <li class="Education"> 
-                            <em>Jan 2021</em> - <b>HTML Academy</b> 
+                            <span class="date_style">Jan 2021</span> - <b>HTML Academy</b> 
                         </li>
                         <li class="Education"> 
-                            <em>2014 - 2018 </em> - <b>Belarusian State Universiry. Faculty of International Relations</b> 
+                            <span class="date_style">2014 - 2018 </span> - <b>Belarusian State Universiry. Faculty of International Relations</b> 
                             <p>Customs affairs (+2 foreign languages)</p>
                         </li>
                         <li class="Education"> 
-                            <em>Aug 2019 - Dec 2019</em> - <b>Educational center for Programing and High Tech (IT-Academy)</b> </li>    
+                            <span class="date_style">Aug 2019 - Dec 2019</span> - <b>Educational center for Programing and High Tech (IT-Academy)</b> </li>    
                         </li> 
                     </ul>
                 </section>
+
                 <section class="cv_item">
-                    <h3 class="right_title">Work experience:</h3>
+                    <div class="title_arrea">
+                        <img class="title_img" src="/imgs/suitcase.png" alt="Work experience">
+                        <h3 class="right_title">Work experience:</h3>
+                    </div>
+                    
                     <div class="title_underline"></div>
                     <ul>
-                        <li class="Education"> <em>Sep 2018 - Sep 2020 </em> - Customs clearance specialist </li> 
-                        <li class="Education"> <em>Sep 2020 - cur.</em> - Graphic Designer </li>
+                        <li class="Education"> <span class="date_style">Sep 2018 - Sep 2020 </span> - Customs clearance specialist </li> 
+                        <li class="Education"> <span class="date_style">Sep 2020 - cur.</span> - Graphic Designer </li>
                     </ul>
-                </section class="cv_item">
-                <section>
-                    <h3 class="right_title">Code example:</h3>
+                </section>
+
+                <section class="cv_item">
+                    <div class="title_arrea">
+                       <img class="title_img" src="/imgs/folders.png" alt="Code example">
+                       <h3 class="right_title">Code example:</h3> 
+                    </div>
+                    
                     <div class="code_ex_arrea">
                         <div class="code_text">
                             <code>
@@ -111,24 +129,51 @@
                                 }
                             </code>
                         </div>
-                       
                     </div>
                 </section>
                 
             </aside>
 
+            <section class="cv_item">
+                <div class="title_arrea">
+                    <img class="title_img" src="/imgs/invention.png" alt="Projects">
+                    <h3 class="right_title">Projects:</h3>
+                </div>
+                
+                <div class="title_underline"></div>
+
+                <div class="projects_gallery">
+                    <div class="project_item">
+                        <a href="https://rolling-scopes-school.github.io/alexa-dis-JSFE2021Q3/museum-dom/">
+                            <img src="/imgs/Welcome_to_the_louvre.jpg" alt="">
+                            <h4>Louvre museum</h4>
+                            <p>A landing page for famous museum. The project that introduced me to adaptive and JS.</p>
+                        </a>
+                    </div>
+                    <div class="project_line"></div>
+                    <div class="project_item">
+                        <a href="https://alexa-dis.github.io/cssMemSlider/cssMemSlider/index.html">
+                            <img src="/imgs/mem_slider.jpg" alt="">
+                            <h4>Mem clider</h4>
+                            <p>A small slider of funny pictures using only CSS.</p>
+                        </a>
+                    </div>  
+                </div>
+            </section>
+
         </div>
+        
     </main>
 
     <footer class="footer">
         <div class="footer_item">
-            <a href="https://github.com/Alexa-dis"> <img src="github_wh.png" alt="github_logo"> </a>
+            <a href="https://github.com/Alexa-dis"> <img src="/imgs/github_wh.png" alt="github_logo"> </a>
         </div>
         <div class="footer_item">
             <p>© <time>2021</time></p>
         </div>
         <div class="footer_item">    
-            <a  href="https://rs.school/js/"> <img class="footer_icon" src="rs_school_js.svg" alt="rs_school_js"></a>
+            <a  href="https://rs.school/js/"> <img class="footer_icon" src="/imgs/rs_school_js.svg" alt="rs_school_js"></a>
         </div>
         
     </footer>

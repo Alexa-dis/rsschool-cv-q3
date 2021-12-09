@@ -19,6 +19,11 @@ h1 {
   padding-bottom: 10px;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .bold {
   font-weight: 700;
   font-size: 24px;
@@ -37,15 +42,15 @@ h1 {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
+  align-items: flex-start
 }
 
 .cv_left {
   width: 30%;
   background: #76cdd8;
   position: relative;
-  display: block;
   min-width: 225px;
-  margin: auto;
+  height: 1125px;
 }
 
 .cv_profile {
@@ -53,7 +58,7 @@ h1 {
 }
 
 .cv_content {
-  padding: 10px 25px;
+  padding: 10px 25px 0 25px;
 }
 
 .cv_item {
@@ -81,9 +86,17 @@ h1 {
 
 .title_underline {
   height: 5px;
-  width: 35px;
+  width: 75px;
   background: #76cdd8;
   margin-bottom: 10px;
+}
+
+.title_img{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-right: 7px;
+  background-color: #76cdd8;
 }
 
 .code_ex_arrea {
@@ -92,6 +105,7 @@ h1 {
   padding: 30px 0;
   border: 5px solid #76cdd8;
   margin-top: 5px;
+  text-transform: none;
 }
 
 .code_text {
@@ -119,6 +133,43 @@ h1 {
   color: #61afef;
 }
 
+.projects_gallery{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.project_item{
+  display: block;
+}
+
+.project_item img {
+  max-width: 350px;
+  height: 350px;
+  filter: alpha(Opacity=50);
+  opacity: 0.6;
+  transition: .5s ease-in-out;
+}
+.project_item img:hover {
+  filter: alpha(Opacity=50);
+  opacity: 1;
+  transition: .5s ease-in-out;
+}
+
+.project_item p{
+  text-transform: none;
+  max-width: 350px;
+  font-size: 17px;
+  line-height: 1.4rem;
+  color: #30727a
+}
+
+.project_line{
+  height: 450px;
+  width: 5px;
+  background-color: #76cdd8;
+}
+
 .footer {
   width: 100%;
   max-width: 800px;
@@ -135,7 +186,7 @@ h1 {
   display: inline-block;
   width: 100%;
   position: relative;
-  text-align: center;
+  text-align:start;
 }
 
 .Education {
@@ -151,6 +202,16 @@ h1 {
   text-transform: none;
   font-size: 16px;
   color: #30727a;
+}
+
+.date_style {
+  font-style: italic;
+  color: #30727a;
+}
+
+.title_arrea{
+  display: flex;
+  align-items: center;
 }
 
 mark {
